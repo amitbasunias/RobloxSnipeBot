@@ -8,7 +8,7 @@ import time,csv
 from datetime import datetime
 
 
-driver = webdriver.Chrome(r'C:\Users\amit\Downloads\chromedriver_win32\chromedriver.exe')
+driver = webdriver.Chrome('chromedriver.exe')
 
 driver.get("https://www.roblox.com/CATALOG?Category=2&Subcategory=2&CurrencyType=3&pxMin=1000&SortType=3")
 
